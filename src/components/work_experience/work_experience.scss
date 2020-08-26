@@ -1,0 +1,35 @@
+.work_experiences {
+  .titles {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #000;
+  }
+  .descriptions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    .experiences {
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      ul {
+        li {
+          margin-bottom: 30px;
+          p {
+            &:first-child {
+              font-size: 17px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    .clients {
+      p {
+        font-weight: bold;
+        text-align: right;
+      }
+    }
+  }
+}

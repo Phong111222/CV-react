@@ -1,0 +1,124 @@
+import React, { Component } from "react";
+import "./ComputerSkill.scss";
+class ComputerSkill extends Component {
+  state = {};
+  render() {
+    return (
+      <div className="ComputerSkill">
+        <h3>COMPUTER SKILLS</h3>
+        <ul className="computer_skills_list">
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163386/company_rukygn.png"
+                alt=""
+              />
+            </div>
+            <p>APPLE</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163386/microsoft_bxmxmb.png"
+                alt=""
+              />
+            </div>
+            <p>WINDOWS</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163386/linux_wvzakz.png"
+                alt=""
+              />
+            </div>
+            <p>LINUX</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163386/logo_c8gcuo.png"
+                alt=""
+              />
+            </div>
+            <p>UBUNTU</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163386/adobe-illustrator_iztdus.png"
+                alt=""
+              />
+            </div>
+            <p>ILLUSTRATOR</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163386/adobe-photoshop_rqt3nj.png"
+                alt=""
+              />
+            </div>
+            <p>PHOTOSHOP</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163386/adobe-indesign_dv2tgm.png"
+                alt=""
+              />
+            </div>
+            <p>INDESIGN</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163565/outlock_vgvdpb.png"
+                alt=""
+              />
+            </div>
+            <p>OUTLOCK</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163386/wordpress_vy5fuc.png"
+                alt=""
+              />
+            </div>
+            <p>WORDPRESS</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163385/word_uctq6u.png"
+                alt=""
+              />
+            </div>
+            <p>WORD</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163385/excel_hm1bc0.png"
+                alt=""
+              />
+            </div>
+            <p>EXCEL</p>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpy2iegdk/image/upload/v1591163385/powerpoint_pljepk.png"
+                alt=""
+              />
+            </div>
+            <p>POWERPOINT</p>
+          </li>
+        </ul>
+      </div>
+    );
+  }
+}
+
+export default ComputerSkill;

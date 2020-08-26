@@ -1,0 +1,30 @@
+.ComputerSkill {
+  margin: 50px 0;
+  h3 {
+    border-bottom: 5px solid #000;
+  }
+  .computer_skills_list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    li {
+      div {
+        display: flex;
+        justify-content: center;
+
+        img {
+          padding: 10px;
+          border: 1.5px solid black;
+          border-radius: 10px;
+          width: 37px;
+          height: 37px;
+        }
+      }
+      p {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 8px;
+      }
+    }
+  }
+}

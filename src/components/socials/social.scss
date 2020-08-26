@@ -1,0 +1,30 @@
+.Social_links {
+  h3 {
+    border-bottom: 5px solid black;
+    margin-bottom: 15px;
+  }
+  .list_social_links {
+    margin: 50px 0;
+    .social_link {
+      display: flex;
+      align-items: baseline;
+      margin-top: 30px;
+
+      h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        color: white;
+        background: black;
+        font-size: 20px;
+        margin-right: 15px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}

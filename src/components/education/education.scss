@@ -1,0 +1,35 @@
+.education_languages {
+  margin-top: 20px;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid #000;
+  }
+  .descriptions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    .education {
+      display: flex;
+      ul {
+        margin-right: 75px;
+        li {
+          .university {
+            font-size: 15px;
+            font-weight: bold;
+          }
+          p {
+            font-size: 17px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+    .languages {
+      p {
+        font-size: 18px;
+        font-weight: 800;
+      }
+    }
+  }
+}
